@@ -3,4 +3,12 @@
 
 //diff21(19) → 2
 //diff21(10) → 11
-/diff21(21) → 0
+//diff21(21) → 0
+
+public int diff21(int n) {
+  int dif = 21 - n;
+  if(n >= 21){
+    return 2 * Math.abs(dif);
+  }
+  return dif;
+}
