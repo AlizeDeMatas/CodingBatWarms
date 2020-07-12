@@ -6,3 +6,11 @@
 //missingChar("kitten", 0) → "itten"
 //missingChar("kitten", 4) → "kittn"
 
+ // get the chars before n
+ String front = str.substring(0, n);
+ // take the chars after n 
+ String back = str.substring(n+1, str.length());
+  //add them 
+  return front + back;
+  
+
